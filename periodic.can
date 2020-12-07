@@ -1,0 +1,22 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message SMessage_1 myMsg;
+  Timer myTimer;
+  int delay=1;
+}
+on start
+{
+  setTimer(myTimer,delay);
+  output(myMsg);
+}
+on timer myTimer
+{
+	write("One second has elapsed.");
+	settimer(myTimer,delay);
+}

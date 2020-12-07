@@ -1,0 +1,29 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  int a = 10;
+  int b = 15;
+}
+
+void mainTest()
+{
+  write("Test Started");
+  test_run_1();
+  test_run_2();
+  write("The multiplication of a and b is %d",a*b);
+}
+
+testcase test_run_1()
+{
+  write("Addition of a and b is %d",a+b);
+}
+
+testcase test_run_2()
+{
+  write("Multiplication of a and b is %d",a*b);
+}

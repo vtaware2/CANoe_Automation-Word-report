@@ -1,0 +1,24 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+void mainTest()
+{
+  write("Changing the value of the system Variable");
+  sys_var_chnage();
+}
+
+testcase sys_var_chnage()
+{
+  @`TestCase::TestCase1 = 0x32;
+  @`TestCase::TestCase2 = 0x0;
+  @`TestCase::TestCase3 = 0x1;
+  write("Values of system variables chnaged");
+}

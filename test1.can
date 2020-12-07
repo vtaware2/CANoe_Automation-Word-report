@@ -1,0 +1,16 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message 0x230 EngineData;
+}
+
+on sysvar `TestCase::TestCase1
+{
+  EngineData.EngineRPM = 0xBB8;
+  output(EngineData);
+}

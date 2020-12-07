@@ -1,0 +1,39 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message 0x230 EngineData;
+}
+
+void mainTest()
+{
+  write("Entering test case");
+  set_engine_rpm();
+  set_engine_status();
+  set_engine_temp();
+}
+
+testcase set_engine_rpm()
+{
+  EngineData.EngineRPM = 0xBA8;
+  output(EngineData);
+  write("Engine RPM value is Chnaged");
+}
+
+testcase set_engine_status()
+{
+  EngineData.EngineStatus = 0x1;
+  output(EngineData);
+  write("Engine Status value is chnaged");
+}
+
+testcase set_engine_temp()
+{
+  EngineData.EngineStatus = 0x1E;
+  output(EngineData);
+  write("Engine temperature value is changed");
+}

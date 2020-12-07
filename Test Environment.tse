@@ -1,0 +1,1084 @@
+;CANoe Version |4|13|1|46564 Test Environment 
+Version: 13.0.155 Build 155
+32 PRO
+10
+APPDIR Vector.CANoe.SignalGenerators.DLL
+Vector.CANoe.SignalGenerators, Version=13.0.155.0, Culture=neutral, PublicKeyToken=null
+Vector.CANoe.SignalGenerators.ComponentWrapper
+1
+1.0.1
+APPDIR Vector.CANalyzer.CAN.InteractiveGenerator.DLL
+Vector.CANalyzer.CAN.InteractiveGenerator, Version=13.0.155.0, Culture=neutral, PublicKeyToken=null
+Vector.CANalyzer.CAN.InteractiveGenerator.Controller.CANwinCommunicator
+2
+1.0.0
+VTSPersistentRoot 1 Begin_Of_Object
+1
+1
+TS_PERSISTENT_ROOT_ID_STRING_0x792341fe
+1
+4
+VTSFolder 2 Begin_Of_Object
+1
+VTSItem 3 Begin_Of_Object
+1
+3 1883048436 0
+1
+END_OF_ITEM_DATA
+End_Of_Object VTSItem 3
+4
+test1
+3
+1890080068
+1890073812
+1890079124
+<VFileName V9 QL> 1 "report.xml" 
+END_OF_FILE_NAME
+<VFileName V9 QL> 1 "" 
+END_OF_FILE_NAME
+9
+1
+END_OF_FOLDER_DATA
+End_Of_Object VTSFolder 2
+VTSProgrammedNode 2 Begin_Of_Object
+1
+VTSWrapper<class_VProgrammedNode> 3 Begin_Of_Object
+2
+VTSItem 4 Begin_Of_Object
+1
+3 1890073812 0
+1
+END_OF_ITEM_DATA
+End_Of_Object VTSItem 4
+2
+VCaplTestNode 4 Begin_Of_Object
+2
+VTestNode 5 Begin_Of_Object
+9
+VProgrammedNode 6 Begin_Of_Object
+7
+VConfigurationRoot 7 Begin_Of_Object
+1
+End_Of_Object VConfigurationRoot 7
+<VFileName V9 QL> 1 "test_2.can" 
+1
+F:\MTU\Training Program\Project\Group1 Project1\test_2.cbf
+
+
+5
+test_2
+Test 4
+EOF_TITLE_INFO
+
+1
+1
+VConfigurationBox 7 Begin_Of_Object
+1
+VUniqueBox 8 Begin_Of_Object
+1
+VBoxRoot 9 Begin_Of_Object
+1
+3
+1 6 0 1 -1 -1 -8 -31 240 280 590 530
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+6
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{E4308ACA-BE3F-4B22-B40F-486A3A70787D}
+0
+End_Of_Object VBoxRoot 9
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 8
+1
+End_Of_Object VConfigurationBox 7
+1
+1
+0
+1
+0
+
+EOF_MBSSDATA
+2
+0 1
+1 1
+0
+EOF_NLDATA
+0
+EOF_ASSEMBLYDATA
+<VFileName V9 QL> 1 "test_2.cbf" 
+VIPBStackSetting 7 Begin_Of_Object
+6
+2
+0
+0
+1
+0
+1
+7
+0.0.0.0
+End_Of_Serialized_Data 7
+7
+::
+End_Of_Serialized_Data 7
+5
+End_Of_Object VIPBStackSetting 7
+6
+NULL
+End_Of_Serialized_Data 6
+0
+<VFileName V9 QL> 0 "" 
+0
+0
+0
+End_Of_Object VProgrammedNode 6
+0
+2
+IDS_REPORTFILTER_ITEM_DESCRIPTION=1
+IDS_REPORTFILTER_ITEM_COMMENTS=1
+IDS_REPORTFILTER_ITEM_VARIABLE=1
+IDS_REPORTFILTER_ITEM_RESUME_SIMPLETIMEOUT=1
+IDS_REPORTFILTER_ITEM_RESUME=1
+IDS_REPORTFILTER_ITEM_FIRSTVIOLATION=1
+IDS_REPORTFILTER_ITEM_STATISTICS=1
+IDS_REPORTFILTER_ITEM_HARDWARE=1
+IDS_REPORTFILTER_ITEM_CHECKEVENTS=0
+IDS_REPORTFITLER_ITEM_GENINFO=1
+IDS_REPORTFITLER_ITEM_SUTINFO=1
+IDS_REPORTFITLER_ITEM_ENGINFO=1
+IDS_REPORTFITLER_ITEM_ELMINFO=1
+End_Of_ReportFilter_Items
+0 
+NULL
+NULL
+0
+<VFileName V9 QL> 1 "test_2_report.vtestreport" 
+1 0 1
+1
+<VFileName V9 BQL> 1 base=cfg "" 
+3
+VSimulinkModelViewerConfiguration 6 Begin_Of_Object
+2
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+150
+0
+End_Of_Object VSimulinkModelViewerConfiguration 6
+1
+0
+1
+1
+VConfigurationBox 6 Begin_Of_Object
+1
+VUniqueBox 7 Begin_Of_Object
+1
+VBoxRoot 8 Begin_Of_Object
+1
+3
+1 6 0 1 -1 -1 -8 -31 240 280 590 530
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+6
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{E4308ACA-BE3F-4B22-B40F-486A3A70787D}
+0
+End_Of_Object VBoxRoot 8
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 7
+1
+End_Of_Object VConfigurationBox 6
+NULL
+0
+0
+<VFileName V9 QL> 1 "rpt9A26.vtestreport" 
+End_Of_Object VTestNode 5
+VTestModuleControllerCapl 5 Begin_Of_Object
+1
+VTestModuleController 6 Begin_Of_Object
+3
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+End_Of_Object VTestModuleController 6
+End_Of_Object VTestModuleControllerCapl 5
+End_Of_Object VCaplTestNode 4
+TS_WRP_DATA_END
+End_Of_Object VTSWrapper<class_VProgrammedNode> 3
+4
+0
+1
+TS_BUS_INFO_COLLECTION_END
+TS_CAPL_BLOCK_END
+End_Of_Object VTSProgrammedNode 2
+VTSProgrammedNode 2 Begin_Of_Object
+1
+VTSWrapper<class_VProgrammedNode> 3 Begin_Of_Object
+2
+VTSItem 4 Begin_Of_Object
+1
+3 1890079124 0
+1
+END_OF_ITEM_DATA
+End_Of_Object VTSItem 4
+2
+VCaplTestNode 4 Begin_Of_Object
+2
+VTestNode 5 Begin_Of_Object
+9
+VProgrammedNode 6 Begin_Of_Object
+7
+VConfigurationRoot 7 Begin_Of_Object
+1
+End_Of_Object VConfigurationRoot 7
+<VFileName V9 QL> 1 "test_3.can" 
+1
+F:\MTU\Training Program\Project\Group1 Project1\test_3.cbf
+
+
+5
+test_3
+Test 5
+EOF_TITLE_INFO
+
+1
+1
+VConfigurationBox 7 Begin_Of_Object
+1
+VUniqueBox 8 Begin_Of_Object
+1
+VBoxRoot 9 Begin_Of_Object
+1
+3
+1 7 0 1 -1 -1 -8 -31 979 49 1450 206
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 979 49 1450 206
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+7
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{98FE2522-1A7A-4038-8363-B2A6DF75DE99}
+0
+End_Of_Object VBoxRoot 9
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 8
+1
+End_Of_Object VConfigurationBox 7
+1
+1
+0
+1
+0
+
+EOF_MBSSDATA
+2
+0 1
+1 1
+0
+EOF_NLDATA
+0
+EOF_ASSEMBLYDATA
+<VFileName V9 QL> 1 "test_3.cbf" 
+VIPBStackSetting 7 Begin_Of_Object
+6
+2
+0
+0
+1
+0
+1
+7
+0.0.0.0
+End_Of_Serialized_Data 7
+7
+::
+End_Of_Serialized_Data 7
+6
+End_Of_Object VIPBStackSetting 7
+6
+NULL
+End_Of_Serialized_Data 6
+0
+<VFileName V9 QL> 0 "" 
+0
+0
+0
+End_Of_Object VProgrammedNode 6
+0
+2
+IDS_REPORTFILTER_ITEM_DESCRIPTION=1
+IDS_REPORTFILTER_ITEM_COMMENTS=1
+IDS_REPORTFILTER_ITEM_VARIABLE=1
+IDS_REPORTFILTER_ITEM_RESUME_SIMPLETIMEOUT=1
+IDS_REPORTFILTER_ITEM_RESUME=1
+IDS_REPORTFILTER_ITEM_FIRSTVIOLATION=1
+IDS_REPORTFILTER_ITEM_STATISTICS=1
+IDS_REPORTFILTER_ITEM_HARDWARE=1
+IDS_REPORTFILTER_ITEM_CHECKEVENTS=0
+IDS_REPORTFITLER_ITEM_GENINFO=1
+IDS_REPORTFITLER_ITEM_SUTINFO=1
+IDS_REPORTFITLER_ITEM_ENGINFO=1
+IDS_REPORTFITLER_ITEM_ELMINFO=1
+End_Of_ReportFilter_Items
+0 
+NULL
+NULL
+0
+<VFileName V9 QL> 1 "test_3_report.vtestreport" 
+1 0 1
+1
+<VFileName V9 BQL> 1 base=cfg "" 
+3
+VSimulinkModelViewerConfiguration 6 Begin_Of_Object
+2
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+150
+0
+End_Of_Object VSimulinkModelViewerConfiguration 6
+1
+0
+1
+1
+VConfigurationBox 6 Begin_Of_Object
+1
+VUniqueBox 7 Begin_Of_Object
+1
+VBoxRoot 8 Begin_Of_Object
+1
+3
+1 7 0 1 -1 -1 -8 -31 979 49 1450 206
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 979 49 1450 206
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+7
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{98FE2522-1A7A-4038-8363-B2A6DF75DE99}
+0
+End_Of_Object VBoxRoot 8
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 7
+1
+End_Of_Object VConfigurationBox 6
+NULL
+0
+0
+<VFileName V9 QL> 1 "rpt6FA4.vtestreport" 
+End_Of_Object VTestNode 5
+VTestModuleControllerCapl 5 Begin_Of_Object
+1
+VTestModuleController 6 Begin_Of_Object
+3
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+End_Of_Object VTestModuleController 6
+End_Of_Object VTestModuleControllerCapl 5
+End_Of_Object VCaplTestNode 4
+TS_WRP_DATA_END
+End_Of_Object VTSWrapper<class_VProgrammedNode> 3
+4
+0
+1
+TS_BUS_INFO_COLLECTION_END
+TS_CAPL_BLOCK_END
+End_Of_Object VTSProgrammedNode 2
+VTSProgrammedNode 2 Begin_Of_Object
+1
+VTSWrapper<class_VProgrammedNode> 3 Begin_Of_Object
+2
+VTSItem 4 Begin_Of_Object
+1
+3 1890080068 0
+1
+END_OF_ITEM_DATA
+End_Of_Object VTSItem 4
+2
+VCaplTestNode 4 Begin_Of_Object
+2
+VTestNode 5 Begin_Of_Object
+9
+VProgrammedNode 6 Begin_Of_Object
+7
+VConfigurationRoot 7 Begin_Of_Object
+1
+End_Of_Object VConfigurationRoot 7
+<VFileName V9 QL> 1 "test_1.can" 
+1
+F:\MTU\Training Program\Project\Group1 Project1\test_1.cbf
+
+
+5
+test_1
+Test 3
+EOF_TITLE_INFO
+
+1
+1
+VConfigurationBox 7 Begin_Of_Object
+1
+VUniqueBox 8 Begin_Of_Object
+1
+VBoxRoot 9 Begin_Of_Object
+1
+3
+1 5 0 1 -1 -1 -8 -31 239 192 665 365
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 239 192 665 365
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+5
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{4B7ECA04-25BE-403F-ABD8-7D86E73B086C}
+0
+End_Of_Object VBoxRoot 9
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 8
+1
+End_Of_Object VConfigurationBox 7
+1
+1
+0
+1
+0
+
+EOF_MBSSDATA
+2
+0 1
+1 1
+0
+EOF_NLDATA
+0
+EOF_ASSEMBLYDATA
+<VFileName V9 QL> 1 "test_1.cbf" 
+VIPBStackSetting 7 Begin_Of_Object
+6
+2
+0
+0
+1
+0
+1
+7
+0.0.0.0
+End_Of_Serialized_Data 7
+7
+::
+End_Of_Serialized_Data 7
+3
+End_Of_Object VIPBStackSetting 7
+6
+NULL
+End_Of_Serialized_Data 6
+0
+<VFileName V9 QL> 0 "" 
+0
+0
+0
+End_Of_Object VProgrammedNode 6
+0
+2
+IDS_REPORTFILTER_ITEM_DESCRIPTION=1
+IDS_REPORTFILTER_ITEM_COMMENTS=1
+IDS_REPORTFILTER_ITEM_VARIABLE=1
+IDS_REPORTFILTER_ITEM_RESUME_SIMPLETIMEOUT=1
+IDS_REPORTFILTER_ITEM_RESUME=1
+IDS_REPORTFILTER_ITEM_FIRSTVIOLATION=1
+IDS_REPORTFILTER_ITEM_STATISTICS=1
+IDS_REPORTFILTER_ITEM_HARDWARE=1
+IDS_REPORTFILTER_ITEM_CHECKEVENTS=0
+IDS_REPORTFITLER_ITEM_GENINFO=1
+IDS_REPORTFITLER_ITEM_SUTINFO=1
+IDS_REPORTFITLER_ITEM_ENGINFO=1
+IDS_REPORTFITLER_ITEM_ELMINFO=1
+End_Of_ReportFilter_Items
+0 
+NULL
+NULL
+0
+<VFileName V9 QL> 1 "test_1_report.vtestreport" 
+1 0 1
+1
+<VFileName V9 BQL> 1 base=cfg "" 
+3
+VSimulinkModelViewerConfiguration 6 Begin_Of_Object
+2
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+<VFileName V9 QL> 0 "" 
+150
+0
+End_Of_Object VSimulinkModelViewerConfiguration 6
+1
+0
+1
+1
+VConfigurationBox 6 Begin_Of_Object
+1
+VUniqueBox 7 Begin_Of_Object
+1
+VBoxRoot 8 Begin_Of_Object
+1
+3
+1 5 0 1 -1 -1 -8 -31 239 192 665 365
+
+1
+
+MDI_DOCK_INFO_END
+5
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 -1 -1 -8 -31 239 192 665 365
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+1
+5
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+1
+1366 335
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+0 1
+1
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+6
+0 1 0 0 -1 -1 240 280 590 530
+6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 32767 0 0 0 0 0 0 0 0 0 0 -1 -1 0 0 0 0 0 0 
+END_OF_DOCK_INFO
+0
+-1
+1
+0 1 -1 -1 -1 -1 341 182 1025 546
+0
+0
+0 0
+END_OF_DESKTOP_DATA
+END_OF_DESKTOP_DATA_COLLECTION
+0
+END_OF_DESKTOP_MEMBER
+{4B7ECA04-25BE-403F-ABD8-7D86E73B086C}
+0
+End_Of_Object VBoxRoot 8
+1 -1 0 0 0 0 0 0 0 0 0 0
+End_Of_Object VUniqueBox 7
+1
+End_Of_Object VConfigurationBox 6
+NULL
+0
+0
+<VFileName V9 QL> 1 "rptD045.vtestreport" 
+End_Of_Object VTestNode 5
+VTestModuleControllerCapl 5 Begin_Of_Object
+1
+VTestModuleController 6 Begin_Of_Object
+3
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+End_Of_Object VTestModuleController 6
+End_Of_Object VTestModuleControllerCapl 5
+End_Of_Object VCaplTestNode 4
+TS_WRP_DATA_END
+End_Of_Object VTSWrapper<class_VProgrammedNode> 3
+4
+0
+1
+TS_BUS_INFO_COLLECTION_END
+TS_CAPL_BLOCK_END
+End_Of_Object VTSProgrammedNode 2
+1
+1883048436
+4
+1
+1883048436
+3
+1890080068
+1890073812
+1890079124
+1
+1890073812
+0
+1
+1890079124
+0
+1
+1890080068
+0
+End_Of_Object VTSPersistentRoot 1

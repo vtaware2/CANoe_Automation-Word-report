@@ -1,0 +1,77 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BCM DriverInfoModule_DIM
+VAL_TABLE_ VtEngineStatus 1 "On" 0 "OFF" ;
+VAL_TABLE_ VtPowerMode 9 "Crank" 7 "Run" 6 "IgnitionOn" 3 "KeyApproved" 2 "Acc" 1 "Keyin" 0 "Kayout" ;
+VAL_TABLE_ CarMode 2 "Transport" 1 "Factory" 0 "Normal" ;
+
+
+BO_ 560 EngineData: 4 DriverInfoModule_DIM
+ SG_ EngineTemp : 24|8@1- (2,50) [-25|45] "DegC"  DriverInfoModule_DIM
+ SG_ EngineRPM : 8|16@1+ (0.0227272727272727,0) [0|1489.43181818182] "RPM"  DriverInfoModule_DIM
+ SG_ EngineStatus : 7|1@1+ (1,0) [0|1] ""  DriverInfoModule_DIM
+
+BO_ 128 PowerMode: 2 DriverInfoModule_DIM
+ SG_ PowerMode : 8|4@1+ (1,0) [0|15] ""  BCM
+ SG_ CarMode : 0|3@1+ (1,0) [0|7] ""  BCM
+
+
+
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","EventPeriodic";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_ "GenMsgCycleTime" BO_ 560 100;
+BA_ "GenMsgSendType" BO_ 128 2;
+BA_ "GenMsgCycleTime" BO_ 128 10;
+VAL_ 560 EngineStatus 1 "On" 0 "OFF" ;
+VAL_ 128 PowerMode 9 "Crank" 7 "Run" 6 "IgnitionOn" 3 "KeyApproved" 2 "Acc" 1 "Keyin" 0 "Kayout" ;
+VAL_ 128 CarMode 2 "Transport" 1 "Factory" 0 "Normal" ;
+

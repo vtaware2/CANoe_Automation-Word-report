@@ -1,0 +1,57 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  int a = 10;
+  int b = 20;
+  message 0x230 _msg250;
+  message 0x80 _msg230;
+  timer _ts250;
+}
+
+/* crating the messagetobe provided at the start*/
+/**/
+on start
+{
+  _msg250.dlc = 16;
+  _msg250.byte(0) = 0x0;
+  _msg250.byte(1) = 0x1;
+  _msg250.byte(2) = 0xA;
+  _msg250.byte(3) = 0xF;
+  _msg250.byte(4) = 0x1;
+  _msg250.byte(5) = 0x2;
+  _msg250.byte(6) = 0x4;
+  _msg250.byte(7) = 0x5;
+  _msg250.byte(8) = 0x7;
+  _msg250.byte(9) = 0x9;
+  _msg250.byte(10) = 0x0;
+  _msg250.byte(11) = 0xC;
+  _msg250.byte(12) = 0xE;
+  _msg250.byte(13) = 0x1;
+  _msg250.byte(14) = 0x6;
+  _msg250.byte(15) = 0x3;
+  output(_msg250);
+  _msg230.dlc = 2;
+  _msg230.byte(14) = 0x1;
+  _msg230.byte(15) = 0x2;
+  output(_msg230);
+  setTimer(_ts250,5);
+}
+
+on timer _ts250
+{
+  output(_msg250);
+  cancelTimer(_ts250);
+  setTimer(_ts250,250);
+}
+
+on key 'r'
+{
+  write("The sum of a and b is %d",a+b);
+}
+
+/**/

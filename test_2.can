@@ -1,0 +1,20 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+void mainTest()
+{
+  print_me();
+}
+
+testcase print_me()
+{
+  write("Hello World");
+}

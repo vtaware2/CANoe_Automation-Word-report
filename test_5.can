@@ -1,0 +1,29 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message 0x80 PowerMode;
+}
+
+void mainTest()
+{
+  write("Changing the values of the Car mode for fun.");
+  set_car_mode();
+  set_power_mode();
+}
+
+testcase set_car_mode()
+{
+  PowerMode.CarMode = 2;
+  write("Car mode value changed to run");
+}
+
+testcase set_power_mode()
+{
+  PowerMode.PowerMode = 9;
+  write("Power mode value changed to ignition");
+}
